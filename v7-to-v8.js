@@ -144,4 +144,4 @@ function getFiles(nextPath) {
 		}
 	}
 }
-getFiles('./src/app/modules');
+getFiles(process.argv[2]);
